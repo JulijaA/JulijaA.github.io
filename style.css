@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  color: white;
+  background-image: url("/background-image.jpg");
+  background-size: cover;
+}
+.weather-widget {
+  border-radius: 5px;
+  width: 22%;
+  background-color: rgba(101, 189, 230, 0.6);
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+  box-shadow: 1px 1px 5px 0px rgba(71, 118, 137, 0.75);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(71, 118, 137, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(71, 118, 137, 0.75);
+}
+.current-date,
+.img,
+.temp,
+.wind {
+  padding: 1rem 1.2rem;
+}
+.current-day {
+  padding-top: 2rem;
+}
+.wind {
+  padding-bottom: 2rem;
+}
+.main-icon {
+  font-size: 4.8rem;
+  margin-top: 0.5rem;
+}
+.rotate {
+  animation: rotate 15s linear infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+i {
+  font-size: 2rem;
+}
+.img-temp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main-temp {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+p {
+  padding-top: 0.3rem;
+  padding-bottom: 1.3rem;
+}
+.fa-sun {
+  color: yellow;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+.card {
+  border-radius: 5px;
+  width: 15%;
+  background-color: rgba(58, 114, 138, 0.7);
+  height: 14rem;
+  color: white;
+  margin: 0.2rem;
+}
+.day,
+.date,
+.img,
+.temp {
+  padding: 1.5rem 1.2rem;
+}
+.date {
+  margin-top: 0.5rem;
+  padding-top: 0;
+}
+.card h2 {
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+h4 {
+  font-weight: 400;
+}
